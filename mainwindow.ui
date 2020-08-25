@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_4">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QListWidget" name="converterList">
+        <property name="resizeMode">
+         <enum>QListView::Fixed</enum>
+        </property>
+        <item>
+         <property name="text">
+          <string>Volume</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Length</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Area</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Weight and Mass</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Time</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Energy</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Temperature</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Speed</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Angle</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Density</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Data Storage</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Force</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Power</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fuel Consumption</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Pressure</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Volume - Dry</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Acceleration</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Moment of Inertia</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Torque</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Velocity - Angular</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Acceleration - Angular</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Specific Volume</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Moment of Force</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QLineEdit" name="convertFromLineEdit"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="convertToLineEdit"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QListWidget" name="convertFromList">
+            <property name="acceptDrops">
+             <bool>false</bool>
+            </property>
+            <property name="viewMode">
+             <enum>QListView::ListMode</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QListWidget" name="convertToList">
+            <property name="currentRow">
+             <number>-1</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
